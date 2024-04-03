@@ -25,7 +25,7 @@ struct ScrollViewReaderApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ImageScrollView()
         }
         .modelContainer(sharedModelContainer)
     }
